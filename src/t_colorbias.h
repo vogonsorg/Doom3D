@@ -1,0 +1,12 @@
+#ifndef T_COLORBIAS_H
+#define T_COLORBIAS_H
+
+enum
+{
+	COLORBIAS_NONE,
+	COLORBIAS_RED,
+	COLORBIAS_GOLD,
+	COLORBIAS_GREEN
+};
+
+#endif

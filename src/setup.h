@@ -1,0 +1,53 @@
+#ifndef SETUP_H
+#define SETUP_H
+
+#define DOOM3D_ICON			1000
+#define MAIN_DLG			1001
+#define NETGAME_DLG			1002
+#define CONTROLS_DLG		1003
+#define SELECTDEVICE_DLG	1004
+
+#define IDC_STATIC		0
+#define IDC_STATIC0		1000
+#define IDC_STATICN(n)	(IDC_STATIC0+n)
+
+#define IDC_RESOLUTION	101
+#define IDC_SAVE		102
+#define IDC_FULLSCREEN	103
+#define IDC_DLLNAME		104
+#define IDC_ADVANCED	105
+#define IDC_HISOUND		106
+#define IDC_NETGAME		107
+#define IDC_PARAMETERS	108
+#define IDC_CONTROLS	109
+#define IDC_FIXSPRITES	110
+#define IDC_HEAPSIZE	111
+
+#define IDC_NUMPLAYERS	200
+#define IDC_DRONE		201
+#define IDC_BACK		202
+#define IDC_LEFT		203
+#define IDC_RIGHT		204
+#define IDC_PLAYER		205
+#define IDC_COOP		206
+#define IDC_DEATHMATCH	207
+#define IDC_DEATH2		208
+#define IDC_PORTNUM		209
+#define IDC_SPLITSCREEN	210
+#define IDC_NODE1		220
+#define IDC_NODE2		(IDC_NODE1+1)
+#define IDC_NODE3		(IDC_NODE1+2)
+#define IDC_NODE4		(IDC_NODE1+3)
+#define IDC_NODE5		(IDC_NODE1+4)
+#define IDC_NODE6		(IDC_NODE1+5)
+#define IDC_NODE7		(IDC_NODE1+6)
+
+#define IDC_MOUSE		301
+#define IDC_MOUSE2		302
+#define IDC_MOUSECOM	303
+#define IDC_JOYSTICK	304
+#define IDC_ANALOGUEJOY	305
+
+#define IDC_DEVICELIST	400
+
+#endif

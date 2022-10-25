@@ -1,0 +1,61 @@
+Doom3D Todo - ** before next release
+-----------
+
+- cheats via. cosole.
+
+- cvars, eg autorun, and cheats
+
+- organise+prioratize todo list
+
+- console command autocomplete
+
+- cd music
+
+- mouselook/full 3D control
+
+- maybe consider pre-parse command names - problems if client/server?
+
+- fix selective redraw on statusbar
+
+- KEY_EQUALS?
+
+- fix held down keys during console, possibly just release all keys when console opened
+
+- fix music volume control
+
+- fix netgame duplicate packet detection
+
+- boom support
+
+- redo controls setup
+
+- rearrange netgame setup dialog
+
+- jumping
+
+- rewrite network code, preferably as client/server
+
+- automap in splitscreen and d3d
+
+- allow more than 4 players
+
+- redo memory subsystem to allow dynamic allocation. Probly similar, but allocate in (eg.) 1Mb chunks as needed
+
+- Some sort of PVS system to speed up rendering(possibly 'steal' code from quake vis util?)
+  Need help/thory - Maybe get someone else to do this!
+
+- switch to DX7 + use vertex buffers for rendering - prolly get DX7 SDK help first
+
+- detect out of texture mem. during precache (quicker)
+
+- make sky 'solid' like it is on original(may be unneccesary with decent PVS)
+
+- seperate (possibly interpreted) game module
+
+- Automap in HW-accel
+
+- Fix screen wipes in 16bit and d3d modes, preferably with hw-accel
+
+- zdoom compatability
+
+- transparent Automap - overlay surface?

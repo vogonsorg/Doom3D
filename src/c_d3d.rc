@@ -1,0 +1,48 @@
+#include "doomver.h"
+
+#ifndef VS_VERSION_INFO
+#define VS_VERSION_INFO 1
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION DOOM_MAJOR_VERSION,DOOM_SUBVERSION,0,0
+ PRODUCTVERSION DOOM_MAJOR_VERSION,DOOM_SUBVERSION,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+//            VALUE "Comments", "\0"
+            VALUE "CompanyName", "FudgeFactor Software\0"
+            VALUE "FileDescription", "Doom3D Direct3D rendering DLL\0"
+            VALUE "FileVersion", DOOM_VERSION_TEXT"\0"
+            VALUE "InternalName", "c_d3d\0"
+            VALUE "LegalCopyright", "Copyright © 2000 FudgeFactor Software\0"
+//            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "c_d3d.dll\0"
+//            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Doom3D\0"
+            VALUE "ProductVersion", DOOM_VERSION_TEXT"\0"
+//            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+

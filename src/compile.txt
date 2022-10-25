@@ -1,0 +1,89 @@
+Compiling Doom3D
+----------------
+
+The included makefile is for the Borland compiler, it should work with Borland
+C++5, C++ builder, and the free downloadable borland compiler. obj
+files are created in ..\obj\, and the exe/dll is created in ..\ this should be
+easily changable by editing the first few lines of the makefile.
+
+
+I have also compiled Doom3D with MS VC++6, to do this you'll have to create
+your own project files. The following files make up each of the projects:
+
+target Doom3d.exe:
+am_*.c
+c_interface.c
+co_console.c
+d_*.c
+f_*.c
+g_*.c
+hu_*.c
+i_input.c
+i_main.c
+i_music.c
+i_net.c
+i_reg.c
+i_system.c
+i_sound.c
+i_windoz.c
+m_*.c
+p_*.c
+s_*.c
+sp_*.c
+st_*.c
+w_*.c
+wi_*.c
+z_*.c
+info.c
+sounds.c
+
+target c_sw8.dll
+dllmain.c
+i_gamma.c
+i_overlay.c
+tables.c
+m_fixed.c
+m_swap.c
+c_sw.c
+swr_*.c
+sw8*.c
+c_dll.def
+
+target c_sw16.dll
+dllmain.c
+i_gamma.c
+i_overlay.c
+tables.c
+m_fixed.c
+m_swap.c
+c_sw.c
+swr_*.c
+sw16*.c
+c_dll.def
+
+target c_d3d.dll
+dllmain.c
+i_gamma.c
+i_overlay.c
+tables.c
+m_fixed.c
+m_swap.c
+c_d3d.c
+d3d*.c
+c_dll.def
+
+target=setup.exe
+setup.c
+i_reg.c
+m_keys.c
+
+target=compwad.exe  //console app
+compwad.c
+i_reg.c
+m_keys.c
+
+I haven't included all the header files here, but VC should work them out
+automaticaly the first time you compile.
+
+Paul Brook
+pbrook@bigfoot.com
